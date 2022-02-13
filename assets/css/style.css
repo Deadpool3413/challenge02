@@ -41,3 +41,25 @@ a {
 .img-selfie {
     position: 
 }
+
+.contact_me {
+    background-color: rgb(180, 180, 180);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 24px;
+    font-style: normal;
+}
