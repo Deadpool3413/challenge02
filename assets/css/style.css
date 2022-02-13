@@ -1,0 +1,8 @@
+header nav {
+    display: flex;
+    background-color: rgb(184, 42, 202);
+}
+
+header h1 {
+    color: aqua;
+}
