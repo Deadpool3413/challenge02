@@ -4,10 +4,13 @@
     --tertiary-color: rgb(255,255,255);
 }
 
+header {
+    border-radius: 10px;
+}
 
 header nav {
     background-color: var(--primary-color);
-    
+    border-radius: 10px;
 }
 
 header nav ul {
@@ -30,10 +33,18 @@ header nav ul li a:hover {
     color: var(--tertiary-color);
 }
 
+footer {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
 .about_me{
     justify-content: center;
     text-align: center;
-    background-color: var(--primary-color);
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 15px 0px;
+    line-height: 3px;
 }
 
 .img-selfie {
@@ -67,6 +78,9 @@ header nav ul li a:hover {
 .title_2 {
     display: flex;
     justify-content: center;
+    background-color: whitesmoke;
+    padding: 15px 0px;
+    border-radius: 10px;
 
 }
 
@@ -78,6 +92,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 .contact-info > * {
@@ -110,4 +125,70 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     opacity: .51;
     
+}
+
+@media  screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+        background-color: var(--primary-color);
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: left;
+        color: var(--tertiary-color);
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 35px;
+        color: var(--tertiary-color);
+    }
+
+    footer {
+        color: var(--tertiary-color);
+    }
+
+    footer a {
+        color: var(--tertiary-color);
+        font-size: 40px;
+    }
+
+    .about_me {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .contact-info address{
+        font-size: 40px;   
+        color: var(--tertiary-color);
+    }
+
+
+
+    p {
+        font-size: x-large;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
